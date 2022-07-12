@@ -5,7 +5,7 @@ import VueSlickCarousel from "vue-slick-carousel";
 </script>
 
 <template>
-  <div id="events" class="bg-[#EEEEEE]">
+  <div id="post" class="bg-[#EEEEEE]">
     <div class="max-w-7xl m-auto">
       <!-- Main title -->
       <p
