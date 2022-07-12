@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="max-w-7xl m-auto">
+    <div id="contactUs" class="max-w-7xl m-auto">
       <div
         class="flex flex-col lg:flex-row lg:justify-between lg:items-center py-[100px] p-[20px]"
       >
