@@ -5,7 +5,7 @@ import VueSlickCarousel from "vue-slick-carousel";
 </script>
 
 <template>
-  <div id="events" class="bg-white">
+  <div id="sermon" class="bg-white">
     <div class="max-w-7xl m-auto">
       <!-- Main title -->
       <p
