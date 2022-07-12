@@ -19,16 +19,16 @@
               <a href="#ourMission">Our Mission</a>
             </li>
             <li class="mr-6">
-              <a href="#">Community</a>
+              <a href="#community">Community</a>
             </li>
             <li class="mr-6">
-              <a href="#">Events</a>
+              <a href="#events">Events</a>
             </li>
             <li class="mr-6">
-              <a href="#">Sermons</a>
+              <a href="#sermon">Sermons</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#post">Blog</a>
             </li>
           </ul>
         </div>
@@ -39,7 +39,7 @@
           <button
             class="text-[#22301F] bg-yellow hover:bg-yellow_hover duration-300 py-2 px-4 rounded-3xl font-bold mt-4"
           >
-            <a href="#">Contact Us</a>
+            <a href="#contactUs">Contact Us</a>
           </button>
 
           <!-- Toggle button -->
@@ -90,26 +90,26 @@
             <a href="#">Home</a>
           </li>
           <li class="mr-2.5">
-            <a href="#">Our Mission</a>
+            <a href="#ourMission">Our Mission</a>
           </li>
           <li class="mr-2.5">
-            <a href="#">Community</a>
+            <a href="#community">Community</a>
           </li>
           <li class="mr-2.5">
-            <a href="#">Events</a>
+            <a href="#events">Events</a>
           </li>
           <li class="mr-2.5">
-            <a href="#">Sermons</a>
+            <a href="#sermon">Sermons</a>
           </li>
           <li class="mr-2.5">
-            <a href="#">Blog</a>
+            <a href="#post">Blog</a>
           </li>
         </ul>
 
         <button
           class="text-white bg-yellow hover:bg-yellow_hover duration-300 py-2 px-4 rounded-3xl font-bold mt-4 lg:hidden mx-8 mb-2"
         >
-          <a href="#">Contact Us</a>
+          <a href="#contactUs">Contact Us</a>
         </button>
       </aside>
       <!-- End of mobile navigation menu -->
