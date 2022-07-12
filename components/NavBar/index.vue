@@ -82,7 +82,7 @@
 
       <!-- Mobile Navigation Menu-->
       <aside
-        class="fixed w-screen h-screen z-10 text-md leading-10 flex flex-col justify-center lg:mt-4 lg:hidden bg-white rounded-md animate__animated animate__fadeInRight"
+        class="absolute w-screen h-screen z-10 text-md leading-10 flex flex-col justify-center lg:mt-4 lg:hidden bg-white rounded-md animate__animated animate__fadeInRight"
         v-if="isOpen"
       >
         <ul class="text-center lg:flex lg:mt-0 my-2 mx-1">
