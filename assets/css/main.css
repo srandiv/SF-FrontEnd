@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -7,6 +11,16 @@ body {
 #community .slick-dots li.slick-active button:before {
   opacity: 0.75 !important;
   color: white !important;
+}
+
+#post .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#sermon .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
 }
 
 #events .slick-slide {
