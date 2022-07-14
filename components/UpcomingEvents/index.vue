@@ -126,7 +126,7 @@ export default {
           date: "July 06th",
         },
         {
-          src: require("@/static/events/summer.png"),
+          src: require("@/static/events/summer.jpg"),
           title: "Next Steps",
           date: "June 11th",
         },
