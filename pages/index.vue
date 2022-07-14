@@ -33,5 +33,18 @@ import Footer from "../components/Footer";
 <script>
 export default {
   name: "IndexPage",
+  components: {
+    Intro,
+    Live,
+    OurVission,
+    OurMission,
+    Community,
+    UpcomingEvents,
+    LatestSermons,
+    LateastPost,
+    ContactUs,
+    NewsLetter,
+    Footer
+  },
 };
 </script>
