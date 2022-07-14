@@ -2,22 +2,22 @@
 import "animate.css";
 import Intro from "../components/Intro";
 import OurMission from "../components/OurMission";
-import Ourvission from "../components/OurVission";
+import OurVission from "../components/OurVission";
 import Live from "../components/Live";
 import Welcome from "../components/Welcome";
 import Community from "../components/Community";
-import UpcomingEvent from "../components/UpcomingEvents";
+import UpcomingEvents from "../components/UpcomingEvents";
 import LatestSermons from "../components/LatestSermons";
 import LateastPost from "../components/LateastPost";
 import ContactUs from "../components/ContactUs";
-import NewsLatter from "../components/NewsLetter";
+import NewsLetter from "../components/NewsLetter";
 import Footer from "../components/Footer";
 </script>
 <template>
   <div>
     <Intro />
     <Live />
-    <Welcome />
+    <!-- <Welcome /> -->
     <OurVission />
     <OurMission />
     <Community />
