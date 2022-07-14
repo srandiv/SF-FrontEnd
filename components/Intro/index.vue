@@ -4,7 +4,7 @@ import IntroContent from "./IntroContent";
 </script>
 <template>
   <div
-    class="my-0 bg-[url('@/static/background.jpg')] bg-cover h-3/4 lg:h-screen"
+    class="my-0 bg-[url('@/static/Background.jpg')] bg-cover h-3/4 lg:h-screen"
   >
     <NavBar />
     <div class="flex flex-col items-center m-auto lg:h-screen">
