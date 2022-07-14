@@ -7,7 +7,7 @@ import VueSlickCarousel from "vue-slick-carousel";
 <template>
   <div
     id="community"
-    class="bg-[url('@/static/community/event-background.png')] bg-cover"
+    class="bg-[url('@/static/community/community-background.jpg')] bg-cover"
   >
     <div class="max-w-7xl m-auto">
       <!-- title -->
@@ -26,9 +26,9 @@ import VueSlickCarousel from "vue-slick-carousel";
           <!-- 1st image -->
           <div class="center container hover:text-[35px]">
             <img
-              src="@/static/community/youth.png"
+              src="@/static/community/youth.jpg"
               alt=""
-              class="center w-[270px] h-[499px] lg:w-auto lg:h-auto cursor-pointer"
+              class="center w-[270px] h-[499px] lg:w-[327px] lg:h-[691px] cursor-pointer rounded-[23px]"
             />
             <div class="centered">
               <p class="text-white font-bold text-[30px] cursor-pointer">
@@ -39,9 +39,9 @@ import VueSlickCarousel from "vue-slick-carousel";
           <!-- 2nd image -->
           <div class="center container">
             <img
-              src="@/static/community/men.png"
+              src="@/static/community/men.jpg"
               alt=""
-              class="center w-[270px] h-[499px] lg:w-auto lg:h-auto cursor-pointer"
+              class="center w-[270px] h-[499px] lg:w-[327px] lg:h-[691px] cursor-pointer rounded-[23px]"
             />
             <div class="centered">
               <p class="text-white font-bold text-[30px] cursor-pointer">
@@ -52,9 +52,9 @@ import VueSlickCarousel from "vue-slick-carousel";
           <!-- 3rd image -->
           <div class="center container">
             <img
-              src="@/static/community/woman.png"
+              src="@/static/community/woman.jpg"
               alt=""
-              class="center w-[270px] h-[499px] lg:w-auto lg:h-auto cursor-pointer"
+              class="center w-[270px] h-[499px] lg:w-[327px] lg:h-[691px] cursor-pointer rounded-[23px]"
             />
             <div class="centered">
               <p class="text-white font-bold text-[30px] cursor-pointer">
