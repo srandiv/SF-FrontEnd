@@ -20,7 +20,7 @@ import ServiceTime from "./ServiceTime.vue";
       <div class="py-8 md:px-8 flex items-center lg:w-auto lg:h-600">
         <img
           class="shadow-xl rounded-3xl m-auto lg:w-[385px] lg:h-[506px]"
-          src="@/static/welcome.jpg"
+          src="@/static/Welcome.jpg"
           alt=""
         />
       </div>
