@@ -17,7 +17,7 @@ import Footer from "../components/Footer";
   <div>
     <Intro />
     <Live />
-    <!-- <Welcome /> -->
+    <Welcome />
     <OurVission />
     <OurMission />
     <Community />
@@ -36,6 +36,7 @@ export default {
   components: {
     Intro,
     Live,
+    Welcome,
     OurVission,
     OurMission,
     Community,
@@ -44,7 +45,7 @@ export default {
     LateastPost,
     ContactUs,
     NewsLetter,
-    Footer
+    Footer,
   },
 };
 </script>
