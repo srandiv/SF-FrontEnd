@@ -26,11 +26,14 @@ import ServiceTime from "./ServiceTime.vue";
       </div>
       <!-- Image end -->
     </div>
-    <!-- <ServiceTime /> -->
+    <ServiceTime />
   </div>
 </template>
 <script>
 export default {
   name: "Welcome",
+  components: {
+    ServiceTime,
+  },
 };
 </script>
