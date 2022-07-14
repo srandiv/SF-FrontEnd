@@ -26,8 +26,8 @@
       </div>
       <div class="flex flex-col justify-center items-center">
         <img
-          class="w-[456px] h-[663px] m-auto"
-          src="@/static/pastor.png"
+          class="w-[406px] h-[563px] m-auto rounded-tl-[40px] rounded-br-[40px]"
+          src="@/static/pastor.jpg"
           alt="Pas.Ranil & sis.Devika"
         />
         <p class="text-[#D8D6D6] font-[20px]">
