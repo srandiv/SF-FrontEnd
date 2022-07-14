@@ -84,7 +84,7 @@ import VueSlickCarousel from "vue-slick-carousel";
 </template>
 <script>
 export default {
-  name: "Events",
+  name: "UpcomingEvents",
   components: { VueSlickCarousel },
   data() {
     return {
