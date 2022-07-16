@@ -36,6 +36,7 @@ iframe {
   width: 300px;
   height: 150px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media only screen and (min-width: 600px) {
