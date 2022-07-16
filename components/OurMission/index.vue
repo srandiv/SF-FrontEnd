@@ -1,7 +1,9 @@
 <template>
   <div id="ourMission" class="lg:max-w-7xl flex m-auto">
-    <div class="lg:max-w-7xl text-center mx-5 my-10">
-      <p class="text-title_dark text-[25px] lg:text-3xl font-bold title py-8">
+    <div class="lg:max-w-7xl text-center mx-5 mb-10">
+      <p
+        class="text-title_dark text-[25px] lg:text-3xl font-bold title py-[48px]"
+      >
         Our Mission
       </p>
       <p class="text-text_gray_light">
