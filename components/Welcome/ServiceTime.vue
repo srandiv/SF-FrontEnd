@@ -9,7 +9,7 @@
     <div class="lg:flex lg:justify-center">
       <!-- Service card -->
       <div
-        class="bg-gray-100 p-6 rounded-2xl shadow-2xl mx-5 flex flex-col text-center my-2.5 lg:flex lg:text-start lg:w-[563px] lg:h-[170px]"
+        class="bg-gray-100 p-6 rounded-2xl shadow mx-5 flex flex-col text-center my-2.5 lg:flex lg:text-start lg:w-[563px] lg:h-[170px]"
       >
         <p class="my-2.5 text-black text-xl font-bold">Sunday Service</p>
         <div class="flex flex-col">
@@ -44,10 +44,11 @@
         </div>
       </div>
       <!-- Service card end -->
+      <!-- 2nd service card -->
       <div
-        class="bg-gray-100 p-6 rounded-2xl shadow-2xl mx-5 flex flex-col text-center lg:flex lg:text-start lg:w-[563px] lg:h-[170px] my-2.5"
+        class="bg-gray-100 p-6 rounded-2xl shadow mx-5 flex flex-col text-center lg:flex lg:text-start lg:w-[563px] lg:h-[170px] mt-[20px] lg:mt-[10px]"
       >
-        <p class="my-2.5 text-black text-xl font-bold">Wensday Servie</p>
+        <p class="my-2.5 text-black text-xl font-bold">Wensday Service</p>
         <div class="flex flex-col">
           <p
             class="my-2.5 flex text-xl font-medium text-text_gray fill-text_gray"
@@ -75,4 +76,8 @@ export default {
   name: "ServiceTime",
 };
 </script>
-<style></style>
+<style scoped>
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+</style>
