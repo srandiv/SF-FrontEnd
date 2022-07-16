@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-dark_background py-14">
+  <div class="bg-dark_background pb-[40px] md:py-[40px]">
     <div class="lg:max-w-7xl lg:m-auto lg:justify-center lg:flex lg:flex-row">
       <div
         class="text-center lg:text-left m-5 lg:flex lg:flex-col lg:justify-center lg:w-1/2"
       >
-        <p class="text-[25px] lg:text-3xl font-bold text-white py-8">
+        <p class="text-[25px] lg:text-3xl font-bold text-white py-[48px]">
           Our Vision
         </p>
         <p class="text-[#D8D6D6]">
@@ -24,9 +24,9 @@
           commission.
         </p>
       </div>
-      <div class="flex flex-col justify-center items-center">
+      <div class="flex flex-col justify-center items-center p-[20px]">
         <img
-          class="w-[406px] h-[563px] m-auto rounded-tl-[40px] rounded-br-[40px]"
+          class="w-auto h-auto md:w-auto md:h-[563px] rounded-tl-[40px] rounded-br-[40px]"
           src="@/static/pastor.jpg"
           alt="Pas.Ranil & sis.Devika"
         />
