@@ -8,29 +8,15 @@ import VueSlickCarousel from "vue-slick-carousel";
   <div id="post" class="bg-[#EEEEEE]">
     <div class="max-w-7xl m-auto">
       <!-- Main title -->
-      <p
-        class="text-[25px] text-title_dark lg:text-[30px] font-bold title text-center py-[60px]"
-      >
+      <p class="text-[25px] text-title_dark lg:text-[30px] font-bold title text-center py-[60px]">
         Latest Posts
       </p>
       <div class="pb-[40px]">
-        <VueSlickCarousel
-          :arrows="false"
-          :dots="true"
-          v-bind="settings"
-          class="carasoul"
-        >
-          <div
-            class="max-w-[385px] h-[600px] bg-white rounded-[30px] card mb-[20px]"
-            v-for="(post, index) in posts"
-            :key="index"
-          >
+        <VueSlickCarousel :arrows="false" :dots="true" v-bind="settings" class="carasoul">
+          <div class="max-w-[385px] h-[600px] bg-white rounded-[30px] card mb-[20px]" v-for="(post, index) in posts"
+            :key="index">
             <div>
-              <img
-                class="max-w-[385px] h-[297px] rounded-t-[30px]"
-                :src="post.thumbnail"
-                alt=""
-              />
+              <img class="max-w-[385px] h-[297px] rounded-t-[30px]" :src="post.thumbnail" alt="" />
             </div>
             <div class="p-[25px]">
               <p class="text-[#344DA0] text-[15px] font-normal">
@@ -43,11 +29,8 @@ import VueSlickCarousel from "vue-slick-carousel";
                 {{ post.discription }}
               </p>
               <div class="flex flex-row items-center">
-                <img
-                  class="w-[38px] h-[38px] rounded-full border-solid border-2 border-[#A9A9A9]"
-                  :src="post.dp"
-                  alt=""
-                />
+                <img class="w-[38px] h-[38px] rounded-full border-solid border-2 border-[#A9A9A9]" :src="post.dp"
+                  alt="" />
                 <div class="ml-[10px]">
                   <p class="text-[#474747] text-[15px] font-semibold">
                     {{ post.authur }}
@@ -64,22 +47,13 @@ import VueSlickCarousel from "vue-slick-carousel";
       <!-- Read more button -->
       <div class="flex flex-row justify-center items-center pb-[40px]">
         <button
-          class="btn text-[#565656] text-[18px] font-medium bg-white py-[10px] px-[25px] rounded-full drop-shadow-[0px_5px_15px_rgba(0, 0, 0, 0.35)] hover:text-[20px] ease-out duration-300"
-        >
+          class="btn text-[#565656] text-[18px] font-medium bg-white py-[10px] px-[25px] rounded-full drop-shadow-[0px_5px_15px_rgba(0, 0, 0, 0.35)] hover:text-[20px] ease-out duration-300">
           <a href="#" class="flex flex-row items-center justify-center">
-            <nuxt-link
-              to="/blog"
-              class="flex flex-row items-center justify-center"
-              >Events Calender
+            <nuxt-link to="/blog" class="flex flex-row items-center justify-center">Read More
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 256 512"
-                class="w-[20px] h-[20px] fill-[#565656]"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="w-[20px] h-[20px] fill-[#565656]">
                 <path
-                  d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"
-                />
+                  d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" />
               </svg>
             </nuxt-link>
           </a>
@@ -185,6 +159,7 @@ export default {
 .card {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
 }
+
 .svg {
   border: 2px solid #565656;
   padding: 10px;
