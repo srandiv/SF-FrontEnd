@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
     <div class="my-0 bg-[url('@/static/Background.jpg')] bg-cover py-[20px]">
       <div class="max-w-7xl m-auto">
         <div class="flex justify-center items-center md:justify-start">
-          <div class="w-[60px]">
+          <div class="w-[60px] mr-[20px]">
             <!-- Nuxt link -->
             <nuxt-link class="rounded-lg" to="/">
               <button class="text-white bg-yellow p-[10px] pr-[15px] rounded-lg flex items-center justify-center">
