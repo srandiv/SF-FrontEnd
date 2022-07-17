@@ -22,10 +22,7 @@
       <!-- All sermons btn -->
       <button
         class="bg-blue hover:bg-blue_hover duration-300 py-2 pl-4 pr-1.5 rounded-3xl flex m-auto items-center mt-2.5 h-12 w-44 justify-around lg:ml-1 lg:mt-0">
-        <!-- link to sermons page -->
-        <nuxt-link to="/sermons">
-          <a href="#">All Sermons</a>
-        </nuxt-link>
+        <a href="#sermon">All Sermons</a>
         <svg class="w-8 h-8 bg-white py-2 px-2 rounded-3xl ml-2.5" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512">
           <path
